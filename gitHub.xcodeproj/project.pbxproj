@@ -14,6 +14,7 @@
 		BD2EE3D02A8D08EC00BB9AD7 /* gitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2EE3CF2A8D08EC00BB9AD7 /* gitHubTests.swift */; };
 		BD2EE3DA2A8D08EC00BB9AD7 /* gitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2EE3D92A8D08EC00BB9AD7 /* gitHubUITests.swift */; };
 		BD2EE3DC2A8D08EC00BB9AD7 /* gitHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2EE3DB2A8D08EC00BB9AD7 /* gitHubUITestsLaunchTests.swift */; };
+		BD2EE3E92A8D0C5600BB9AD7 /* github.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2EE3E82A8D0C5600BB9AD7 /* github.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BD2EE3D52A8D08EC00BB9AD7 /* gitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2EE3D92A8D08EC00BB9AD7 /* gitHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitHubUITests.swift; sourceTree = "<group>"; };
 		BD2EE3DB2A8D08EC00BB9AD7 /* gitHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD2EE3E82A8D0C5600BB9AD7 /* github.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		BD2EE3B22A8D08EB00BB9AD7 = {
 			isa = PBXGroup;
 			children = (
+				BD2EE3E82A8D0C5600BB9AD7 /* github.swift */,
 				BD2EE3BD2A8D08EB00BB9AD7 /* gitHub */,
 				BD2EE3CE2A8D08EC00BB9AD7 /* gitHubTests */,
 				BD2EE3D82A8D08EC00BB9AD7 /* gitHubUITests */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2EE3C12A8D08EB00BB9AD7 /* ContentView.swift in Sources */,
+				BD2EE3E92A8D0C5600BB9AD7 /* github.swift in Sources */,
 				BD2EE3BF2A8D08EB00BB9AD7 /* gitHubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
